@@ -12,4 +12,4 @@ push:
 tag:
   just push
   git tag $(node -p "require('./package.json').version")
-  git push origin $(node -p "require('./package.json').version")
+  git push repo  $(node -p "require('./package.json').version")
