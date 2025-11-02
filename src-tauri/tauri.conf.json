@@ -1,6 +1,6 @@
 {
 	"productName": "tauri-ui",
-	"version": "0.0.0",
+	"version": "0.1.2",
 	"identifier": "com.superuse.tauri-ui",
 	"build": {
 		"beforeDevCommand": "pnpm dev",
