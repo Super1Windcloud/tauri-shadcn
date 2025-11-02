@@ -1,7 +1,7 @@
 import type { UnlistenFn } from "@tauri-apps/api/event"
 import { getCurrentWindow, type Window } from "@tauri-apps/api/window"
 import { Copy, Minus, Square, X } from "lucide-react"
-import type { KeyboardEvent } from "react"
+import type { CSSProperties, KeyboardEvent } from "react"
 import { useCallback, useEffect, useMemo, useState } from "react"
 
 export function WindowTitlebar() {
@@ -97,7 +97,7 @@ export function WindowTitlebar() {
       <div
         data-tauri-drag-region="false"
         className="flex items-center gap-1"
-        style={{ WebkitAppRegion: "no-drag" }}
+        style={{ WebkitAppRegion: "no-drag" } as CSSProperties}
       >
         <button
           type="button"

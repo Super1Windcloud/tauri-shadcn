@@ -9,3 +9,11 @@ push :
     git add .
     git commit -m "update"
     git push repo main 
+
+
+
+tag:
+    just push
+    version=$(node -p "require('./package.json').version")
+    git tag v$version
+    git push repo v$version

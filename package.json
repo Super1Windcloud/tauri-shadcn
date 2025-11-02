@@ -1,7 +1,7 @@
 {
   "name": "tauri-ui-vite",
   "private": true,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A Tauri application with a React, TypeScript, and Vite frontend.",
   "author": "SuperWindCloud",
   "homepage": "https://github.com/Super1WindCloud",
