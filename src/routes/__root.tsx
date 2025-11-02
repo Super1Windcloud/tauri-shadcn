@@ -1,11 +1,11 @@
-import { useEffect } from "react"
-import { DashboardLayout } from "@/dashboard/layout"
 import { createRootRoute, Outlet } from "@tanstack/react-router"
 import { invoke } from "@tauri-apps/api/core"
+import { useEffect } from "react"
 
-import { cn } from "@/lib/utils"
 import { TailwindIndicator } from "@/components/tailwind-indicator"
 import { ThemeProvider } from "@/components/theme-provider"
+import { DashboardLayout } from "@/dashboard/layout"
+import { cn } from "@/lib/utils"
 
 function AppShell() {
   useEffect(() => {
@@ -16,9 +16,7 @@ function AppShell() {
 
   return (
     <ThemeProvider>
-      <div
-        className="h-screen w-screen"
-      >
+      <div className="h-screen w-screen">
         <div
           style={{
             scrollbarWidth: "none",

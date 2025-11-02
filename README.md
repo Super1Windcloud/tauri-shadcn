@@ -2,7 +2,7 @@
 
 一个基于 Tauri + React + TypeScript + Vite + Shadcn/UI 的现代化桌面应用模板，集成了丰富的 UI 组件和现代前端工具链。
 
-![Dashboard Preview](./preview.png)
+![Dashboard Preview](./images/image.png)
 
 ## 特性
 

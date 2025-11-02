@@ -22,6 +22,7 @@
     "bump": "pnpm taze && pnpm cargo-update && pnpm shadcn",
     "check": "biome check  && cd src-tauri && cargo check",
     "fix": "biome check   --fix && cd src-tauri && cargo fmt",
+    "test": "vitest",
     "migrate": "biome migrate eslint  --write && biome migrate prettier  --write"
   },
   "dependencies": {
@@ -86,6 +87,7 @@
     "@types/react": "^19.2.2",
     "@types/react-dom": "^19.2.2",
     "@vitejs/plugin-react": "^5.1.0",
+    "jsdom": "^26.0.0",
     "@tanstack/router-vite-plugin": "^1.134.9",
     "autoprefixer": "^10.4.21",
     "class-variance-authority": "^0.7.1",
