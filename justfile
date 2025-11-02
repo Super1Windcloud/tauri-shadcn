@@ -15,5 +15,5 @@ push :
 tag:
     just push
     version=$(node -p "require('./package.json').version")
-    git tag v$version
-    git push repo v$version
+    git tag $version
+    git push repo $version
