@@ -2,7 +2,7 @@
 name = "tauri-ui"
 version = "0.1.0"
 description = "A Tauri App"
-authors = ["you"]
+authors = ["SuperWindCloud"]
 license = "MIT"
 repository = ""
 edition = "2021"

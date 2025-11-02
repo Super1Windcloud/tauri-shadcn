@@ -1,6 +1,6 @@
 ---
 name: Bug report
-about: Report a crash, error, or other unusual behaviour for audio-courier
+about: Report a crash, error, or other unusual behaviour for App
 title: ""
 labels: bug
 assignees: ""
