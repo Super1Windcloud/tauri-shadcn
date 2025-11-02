@@ -53,22 +53,6 @@ module.exports = tseslint.config(
 			"react-hooks/rules-of-hooks": "error",
 			"react-hooks/exhaustive-deps": "warn",
 			"jsx-a11y/no-autofocus": "off",
-			"import/order": [
-				"error",
-				{
-					groups: [
-						"builtin",
-						"external",
-						"internal",
-						"parent",
-						"sibling",
-						"index",
-						"type",
-					],
-					alphabetize: { order: "asc", caseInsensitive: true },
-					"newlines-between": "always",
-				},
-			],
 			"no-console": ["warn", { allow: ["warn", "error", "info"] }],
 		},
 	},

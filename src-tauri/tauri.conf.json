@@ -10,15 +10,19 @@
 	},
 	"app": {
 		"security": {
-			"csp": null
+			"csp": null,
+			"capabilities": [
+				"default"
+			]
 		},
 		"windows": [
 			{
+				"label": "main",
 				"fullscreen": false,
 				"title": "tauri-ui",
 				"center": true,
 				"resizable": true,
-				"decorations": true,
+				"decorations": false,
 				"transparent": true,
 				"height": 600,
 				"width": 800,
