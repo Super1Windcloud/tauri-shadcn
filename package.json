@@ -14,7 +14,7 @@
     "taze": "npx taze major -w -I",
     "shadcn": "npx shadcn@latest add -a -y -o &&   npx shadcn@latest diff",
     "cargo-update": "cd src-tauri && cargo upgrade --incompatible",
-    "clean": "npx rimraf node_modules",
+    "clean": "npx rimraf node_modules && pnpm cargo-clean",
     "cargo-clean": "cd src-tauri && cargo clean",
     "lint": "eslint  src --fix && cd src-tauri && cargo check",
     "format": "prettier --write src && cd src-tauri &&  cargo fmt",
